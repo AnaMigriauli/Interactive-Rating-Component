@@ -1,0 +1,10 @@
+.card {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: linear-gradient(#232a34, #181e27);
+  border-radius: 30px;
+  width: 412px;
+  height: 416px;
+  position: relative;
+}

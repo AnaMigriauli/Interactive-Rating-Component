@@ -1,0 +1,30 @@
+.rate {
+  color: #fc7614;
+  font-size: 14px;
+  margin-top: 29px;
+}
+.text2 {
+  /* width: 279px; */
+  /* height: 66px; */
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 15px;
+  color: #969fad;
+}
+
+.rated-cart-heading {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 32pxpx;
+}
+.img2 {
+  margin: 0 auto;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 34px;
+}
