@@ -1,0 +1,25 @@
+.rated-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rate {
+  color: #fc7614;
+  font-size: 14px;
+  margin-bottom: 24px;
+  padding: 5px 12px;
+}
+.text2 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #969fad;
+  text-align: center;
+}
+
+.rated-card-heading {
+  color: #ffffff;
+  font-size: 24px;
+}
+.img2 {
+  margin-top: 10px;
+}
