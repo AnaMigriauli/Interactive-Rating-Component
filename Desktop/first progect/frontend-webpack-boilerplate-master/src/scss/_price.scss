@@ -1,0 +1,75 @@
+.price {
+  padding: 9.1rem 15rem 5rem 15rem;
+  .pricing-plan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+
+    .pricing-plan-box {
+      background-color: $background-color;
+
+      position: relative;
+      letter-spacing: 1px;
+      box-shadow: 5px 0px 10px rgb(0, 0, 0, 0.25);
+      .plan-header {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        text-align: center;
+        padding-top: 3.62rem;
+        padding-bottom: 3.62rem;
+      }
+      .plan-price span {
+        font-weight: 400;
+        font-size: 5.5rem;
+        line-height: 6.7rem;
+        background-color: $white;
+        color: $gray;
+      }
+      .plan-price {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        text-align: center;
+        background-color: $white;
+        padding-bottom: 1.7rem;
+        padding-top: 1.8rem;
+        color: $gray;
+      }
+      .plan-list {
+        display: flex;
+        flex-direction: column;
+
+        // align-items: center;
+        // justify-content: center;
+        gap: 2.1rem;
+        padding: 5.2rem 0 7.36rem 0;
+        text-align: center;
+
+        .plan-item {
+          font-weight: 300;
+          font-size: 2rem;
+          line-height: 2.4rem;
+          padding-bottom: 2.1rem;
+          border-bottom: 1px solid $border-color;
+        }
+      }
+      .plan-btn {
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        font-weight: 500;
+        border: none;
+        background-color: $background-color;
+        border-radius: 5rem;
+        box-shadow: 5px 0 10px rgb(0, 0, 0, 0.25);
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+      }
+    }
+  }
+}

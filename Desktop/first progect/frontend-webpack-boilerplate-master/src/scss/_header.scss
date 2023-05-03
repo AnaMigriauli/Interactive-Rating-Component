@@ -1,0 +1,47 @@
+.navigation {
+  background-color: $white;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 14.9rem;
+
+  .nav {
+    gap: 23.5rem;
+
+    .nav-list {
+      display: flex;
+      justify-content: space-between;
+      gap: 5rem;
+      align-items: center;
+
+      .list-item {
+        list-style: none;
+        .nav-link {
+          font-family: "Inter-Medium";
+          font-size: 2.4rem;
+          line-height: 2.9rem;
+          letter-spacing: 1.5px;
+          text-decoration: none;
+          color: $gray;
+        }
+        .nav-link:hover {
+          color: $blu;
+        }
+      }
+    }
+  }
+  .btn-box {
+    max-width: 17.8rem;
+    max-height: 4.4rem;
+
+    letter-spacing: 0.8px;
+
+    .contact-btn {
+      line-height: 2.4rem;
+
+      font-weight: 500;
+      font-size: 2rem;
+    }
+  }
+}

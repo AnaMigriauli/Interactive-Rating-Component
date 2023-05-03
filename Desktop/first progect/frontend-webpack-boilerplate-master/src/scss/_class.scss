@@ -1,0 +1,57 @@
+.class-section {
+  background-color: $background-color;
+  padding: 9rem 15rem 5.7rem 15rem;
+
+  .exercise-box {
+    display: grid;
+    gap: 4.5rem;
+
+    .exercise {
+      background-color: $white;
+
+      .exercise-title {
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+        color: $exercise-color;
+        padding: 1.1rem 0 1.2rem 2rem;
+      }
+      .exercise-line {
+        border-bottom: 1px solid $picture-color;
+      }
+
+      .exercise-attributes {
+        font-size: 1.8rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 2.2rem;
+        list-style: none;
+        padding: 1.3rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 2.9rem;
+        .exercise-attribute {
+          display: flex;
+          align-items: center;
+          gap: 1.4rem;
+        }
+        .exercise-attribute-2 {
+          display: flex;
+          align-items: center;
+          gap: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+.btn-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+  .view-btn {
+    font-size: 2rem;
+  }
+}

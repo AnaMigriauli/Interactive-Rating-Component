@@ -1,0 +1,25 @@
+/**
+ * Fonts
+*/
+/*
+@font-face {
+  font-family: "DINP-R";
+  src: url("../fonts/DINPro-Regular.eot?") format("eot"),
+    url("../fonts/DINPro-Regular.woff") format("woff"),
+    url("../fonts/DINPro-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Light.ttf") format("ttf"),
+    url("../fonts/Inter-Regular.ttf") format("ttf"),
+    url("../fonts/Inter-Medium.ttf") format("ttf"),
+    url("../fonts/Inter-Bold.ttf") format("ttf"),
+    url("../fonts/Inter-SemiBold.ttf") format("ttf"),
+    url("../fonts/Inter-ExtraLight.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Miniver-Regular";
+  src: url("../fonts/Miniver-Regular.ttf") format("ttf");
+}

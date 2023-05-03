@@ -1,0 +1,37 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import "base/vars";
+
+/* CSS Reset */
+@import "base/reset";
+
+/* CSS print */
+@import "base/print";
+
+/* Fonts */
+@import "base/fonts";
+
+/* Mixins, helpers and functions */
+@import "base/mixins";
+
+/* Vendor */
+
+/* Components */
+
+/* Browser specific styles */
+@import "dirty/hacks";
+
+/* Demo Page styles */
+@import "header.scss";
+@import "general.scss";
+@import "hero.scss";
+@import "workout.scss";
+@import "class.scss";
+@import "timetable.scss";
+@import "trainers.scss";
+@import "gallery.scss";
+@import "blog.scss";
+@import "price.scss";
+@import "testimonies.scss";
+@import "footer.scss";

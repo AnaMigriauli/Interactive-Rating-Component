@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/********************************************/
+/*       GENERAL REUSABLE COMPONENTS        */
+/********************************************/
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.btn {
+  font-family: "Inter";
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid $blu;
+  cursor: pointer;
+  border-radius: 4rem;
+  padding: 1rem 4rem;
+  color: $gray;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: $blu;
+  color: $white;
+}
+.text-box {
+  color: $gray;
+  .title {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .decor-box {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 2rem;
+
+    .line {
+      width: 5rem;
+      height: 0.3rem;
+      background-color: $gray;
+      align-self: center;
+    }
+    .circle {
+      width: 1.3rem;
+      height: 1.3rem;
+      background-color: $blu;
+      border-radius: 50%;
+    }
+  }
+  .description {
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    letter-spacing: 1.4px;
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+  }
+}

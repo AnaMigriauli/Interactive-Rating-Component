@@ -1,0 +1,38 @@
+.workout-section {
+  background-color: $white;
+  padding: 11rem 15rem;
+  gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  .workout-text-box {
+    color: $gray;
+    .workout-title {
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 4.8rem;
+      margin-bottom: 3.24rem;
+    }
+    .workout-description {
+      font-weight: 300;
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      letter-spacing: 1.5px;
+      margin-bottom: 3.24rem;
+    }
+    .workout-btn-box {
+      .workout-btn {
+        font-weight: 500;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+  .workout-img-box {
+    .workout-img {
+      border: 2rem solid $white;
+      box-shadow: (0 4px 4px 5px rgba(0, 0, 0, 0.25));
+    }
+  }
+}

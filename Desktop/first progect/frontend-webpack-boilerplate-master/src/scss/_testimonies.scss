@@ -1,0 +1,53 @@
+.testimonies {
+  background-color: $background-color;
+  padding: 5rem 15rem;
+  .text-box {
+    margin-bottom: 7rem;
+  }
+  .testimonies-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 8rem;
+    background-color: $white;
+    position: relative;
+
+    .testimonies-text {
+      font-weight: 300;
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: $gray;
+      letter-spacing: 1.5px;
+    }
+    .testimonies-name {
+      font-family: "Miniver-Regular";
+      font-size: 3.2rem;
+      line-height: 4.7rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+    .testimonies-ceo {
+      font-weight: 500;
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      letter-spacing: 1.2px;
+    }
+    .testimonies-circle {
+      width: 16.4rem;
+      height: 16.4rem;
+
+      border-radius: 50%;
+      background-color: $white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

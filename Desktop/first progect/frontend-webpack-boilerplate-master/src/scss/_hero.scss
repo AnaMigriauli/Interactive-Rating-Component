@@ -1,0 +1,56 @@
+.hero-section {
+  background-color: #f1f1f1;
+  padding: 3.3rem 0 3.4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .hero-text-box {
+    transform: translateX(15rem);
+    z-index: 1;
+
+    .hero-welcome {
+      font-weight: 300;
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      color: $gray;
+      letter-spacing: 6px;
+    }
+    .hero-title {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 4.84rem;
+      margin-top: 1rem;
+      color: $gray;
+      letter-spacing: 1px;
+    }
+    .hero-title span {
+      color: $blu;
+    }
+    .hero-description {
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      letter-spacing: 1px;
+    }
+    .hero-btn-box {
+      border: none;
+      border-radius: 4rem;
+      .hero-btn {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.4rem;
+      }
+    }
+  }
+
+  .img-box {
+    max-width: 79rem;
+    transform: translateX(-15rem);
+
+    .hero-img {
+      width: 100%;
+    }
+  }
+}

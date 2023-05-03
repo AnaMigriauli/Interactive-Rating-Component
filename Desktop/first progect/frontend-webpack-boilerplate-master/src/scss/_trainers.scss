@@ -1,0 +1,9 @@
+.trainers {
+  background-color: $background-color;
+  padding: 7rem 15rem 5rem 15rem;
+
+  .trainer-img-box {
+    display: flex;
+    justify-content: space-between;
+  }
+}
