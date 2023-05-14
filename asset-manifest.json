@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Interactive-Rating-Component/static/css/main.848537db.css",
+    "main.js": "/Interactive-Rating-Component/static/js/main.18c3098e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Interactive-Rating-Component/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Online payment_Two Color(1) 2.svg": "/Interactive-Rating-Component/static/media/Online payment_Two Color(1) 2.09a5834f16473b4e1e7a0944223cc5f4.svg",
+    "static/media/Group 4.svg": "/Interactive-Rating-Component/static/media/Group 4.731c8727aa517bb0ba03d5cc312e5271.svg",
+    "index.html": "/Interactive-Rating-Component/index.html",
+    "main.848537db.css.map": "/Interactive-Rating-Component/static/css/main.848537db.css.map",
+    "main.18c3098e.js.map": "/Interactive-Rating-Component/static/js/main.18c3098e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Interactive-Rating-Component/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.848537db.css",
+    "static/js/main.18c3098e.js"
+  ]
+}
